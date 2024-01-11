@@ -40,7 +40,7 @@ export default async function SnippetShowPage(props: SnippetShowPageProps) {
         </div>
       </div>
       <pre className="p-3 border rounded bg-gray-200 border-gray-200">
-        <code>{snippet.code}</code>
+        <code className="whitespace-pre-wrap">{snippet.code}</code>
       </pre>
     </div>
   );
