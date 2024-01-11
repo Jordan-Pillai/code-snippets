@@ -21,6 +21,7 @@ export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
 
   return (
     <div className="mt-8">
+      <h1 className="text-xl font-bold mb-4">Editing: {snippet.title}</h1>
       <Editor
         height="60vh"
         theme="vs-dark"
@@ -32,7 +33,10 @@ export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
         onChange={handleEditorChange}
       />
       <form action={editSnippetAction}>
-        <button type="submit" className="my-2 p-2 border">
+        <button
+          type="submit"
+          className="rounded p-2 mt-4 border-blue-500 bg-blue-500 text-white w-full"
+        >
           Save
         </button>
       </form>

@@ -21,7 +21,10 @@ export default async function Home() {
     <div>
       <div className="flex my-2 justify-between items-center">
         <h1 className="text-xl font-bold">Code Snippets</h1>
-        <Link href="/snippets/new" className="border p-2 rounded">
+        <Link
+          href="/snippets/new"
+          className="border p-2 rounded border-blue-500 bg-blue-500 text-white"
+        >
           New
         </Link>
       </div>
