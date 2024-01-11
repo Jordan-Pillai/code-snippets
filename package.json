@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "prisma generate && prisma migrate"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
     "@prisma/client": "^5.5.2",
     "next": "14.0.2",
     "prisma": "^5.5.2",
