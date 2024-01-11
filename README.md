@@ -1,4 +1,4 @@
-This is a code snippet creator app built with NextJS, Prisma Client and SQLite
+This is a code snippet creator app built with NextJS, Prisma Client, Tailwind and SQLite
 
 ## Getting Started
 
@@ -20,4 +20,3 @@ You can create new code snippets by adding a title and pasting in a code snippet
 
 You can then edit or delete the result
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
