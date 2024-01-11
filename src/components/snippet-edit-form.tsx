@@ -22,7 +22,7 @@ export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
   return (
     <div>
       <Editor
-        height="40vh"
+        height="90vh"
         theme="vs-dark"
         defaultValue={snippet.code}
         language="javascript"
